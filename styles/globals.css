@@ -1,15 +1,29 @@
 body {
-  font-family: Arial, sans-serif;
+  background-color: #222;
+  font-family: "Dots All For Now", Arial, sans-serif;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 .container {
-  background-color: lightgray;
+  background-color: #222; /* Dunkelgraue Hintergrundfarbe */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Dots All For Now", Arial, sans-serif;
+  color: white;
+}
+
+@font-face {
+  font-family: 'Dots All For Now'; /* Name der Schriftart */
+  src: url('./dots-all-for-now/DotsAllForNow.ttf') format('truetype')/* Pfad zur .woff2 Datei */
+
+}
+
+.centered-text {
+  text-align: center;
 }
 
 .title {
@@ -39,4 +53,13 @@ body {
   width: 30px; /* Ändere die Breite nach Bedarf */
   height: auto; /* Die Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
   margin-right: 10px; /* Füge einen Abstand zwischen dem Bild und dem Namen hinzu */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.name-container {
+  margin-left: 10px; /* Adjust as needed */
 }
