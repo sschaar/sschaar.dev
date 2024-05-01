@@ -1,35 +1,42 @@
-html,
 body {
-  padding: 0;
+  font-family: Arial, sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-main {
-  padding: 5rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+  padding: 0;
 }
 
 .container {
-  height: 100vh;
+  background-color: lightgray;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+.title {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.title a {
+  margin-left: 10px;
+}
+
+.page-link {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.page-link:hover {
+  background-color: deepskyblue;
+}
+
+.github-logo {
+  width: 30px; /* Ändere die Breite nach Bedarf */
+  height: auto; /* Die Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
+  margin-right: 10px; /* Füge einen Abstand zwischen dem Bild und dem Namen hinzu */
 }
