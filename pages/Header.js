@@ -4,6 +4,7 @@ import Link from 'next/link';
 function Header() {
     return (
         <div className="header">
+            <link rel="icon" type="image/png" href="/logo.png"/>
             <div className="header-content">
                 <a href="https://github.com/sschaar" target="_blank" rel="noopener noreferrer">
                     <img src="/github_logo.png" alt="GitHub" className="github-logo"/>

@@ -79,12 +79,6 @@ body, .container {
   margin-right: auto;
 }
 
-.github-logo {
-  width: 30px;
-  height: auto;
-  margin-right: 10px;
-}
-
 .projects-link a{
   color: white;
   text-decoration: none;
