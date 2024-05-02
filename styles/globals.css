@@ -1,4 +1,4 @@
-body {
+body, .container {
   background-color: #222;
   font-family: "Dots All For Now", Arial, sans-serif;
   margin: 0;
@@ -7,19 +7,15 @@ body {
 }
 
 .container {
-  background-color: #222; /* Dunkelgraue Hintergrundfarbe */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Dots All For Now", Arial, sans-serif;
-  color: white;
 }
 
 @font-face {
-  font-family: 'Dots All For Now'; /* Name der Schriftart */
-  src: url('./dots-all-for-now/DotsAllForNow.ttf') format('truetype')/* Pfad zur .woff2 Datei */
-
+  font-family: 'Dots All For Now';
+  src: url('./dots-all-for-now/DotsAllForNow.ttf') format('truetype')
 }
 
 .centered-text {
@@ -50,16 +46,51 @@ body {
 }
 
 .github-logo {
-  width: 30px; /* Ändere die Breite nach Bedarf */
-  height: auto; /* Die Höhe automatisch anpassen, um das Seitenverhältnis beizubehalten */
-  margin-right: 10px; /* Füge einen Abstand zwischen dem Bild und dem Namen hinzu */
+  width: 30px;
+  height: auto;
+  margin-right: 20px;
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header-content {
+  display: flex;
   align-items: center;
 }
 
-.name-container {
-  margin-left: 10px; /* Adjust as needed */
+.header-content .sschaar {
+  cursor: pointer;
+}
+
+.header-content .sschaar h1 {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.left-content {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.github-logo {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.projects-link a{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.center-content {
+  flex-grow: 1;
 }
