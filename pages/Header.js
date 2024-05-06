@@ -20,9 +20,15 @@ function Header() {
                     </div>
                 </div>
 
-                <div className="projects-link">
+                <div className="link">
                     <Link href="/project" passHref legacyBehavior>
                         <a>projects</a>
+                    </Link>
+                </div>
+
+                <div className="link">
+                    <Link href="/about" passHref legacyBehavior>
+                        <a>about</a>
                     </Link>
                 </div>
             </div>
