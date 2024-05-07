@@ -6,8 +6,8 @@ function AboutPage() {
         <div className="container">
             <Header/>
             <h1>About</h1>
-            <p className="centered-text">
-                I'm 18-years-old from Austria with a deep passion for becoming a software developer. With a strong
+            <p className="centered-text">I'm 18-years-old from Austria with a deep passion for becoming a software
+                developer. <br/> With a strong
                 interest in technology and a drive for creative problem-solving, I aim to develop innovative software
                 solutions and contribute positively to the digital world.
             </p>
@@ -43,7 +43,8 @@ function AboutPage() {
                 </p>
             </div>
         </div>
-    );
+    )
+        ;
 }
 
 export default AboutPage;

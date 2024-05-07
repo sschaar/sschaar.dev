@@ -2,6 +2,7 @@ body {
   background-color: #222;
   font-family: "Dots All For Now", Arial, sans-serif;
   color: white;
+  font-size: 20px;
 }
 
 @font-face {
